@@ -7,7 +7,7 @@ I am Sean Paul Monton, and I build the systems that businesses actually run on, 
 - Founding Software Engineer @ Amplify; Co-Founder & Lead Full Stack Developer @ Kalinga Spa and Laundry King MNL
 - BS Computer Science @ Polytechnic University of the Philippines; SM Foundation Scholar
 - ₱1.1M+ in revenue shipped across two companies, using Go and PostgreSQL, TypeScript, Python, and AWS
-- Based in Pasay City, Philippines; open for volunteer work
+- Based in Pasay City, Philippines, and open to speaking opportunities
 
 ## Highlights
 

@@ -73,9 +73,11 @@ export default function Home() {
             </span>{" "}
             at Amplify. I build the systems these businesses actually run on,
             namely their bookings, payouts, and operations tooling, and I am
-            always open for{" "}
-            <span className="text-foreground font-medium">volunteer work</span>{" "}
-            that needs an engineer.
+            always open to{" "}
+            <span className="text-foreground font-medium">
+              speaking opportunities
+            </span>{" "}
+            where I can share how these were built.
           </p>
 
           <motion.div

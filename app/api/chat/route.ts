@@ -9,7 +9,7 @@ const PORTFOLIO_DATA = {
     title:
       "Founding Software Engineer at Amplify, Co-Founder & Lead Full Stack Developer at Kalinga Spa and Laundry King MNL",
     location: "Pasay City, Philippines",
-    status: "Open for Volunteer Work",
+    status: "Open to Speaking Opportunities",
     bio: "Co-founder of Kalinga Spa and Laundry King MNL, and Founding Software Engineer at Amplify, while finishing a BSCS at PUP Manila as an SM Foundation Scholar. Builds the platform a business actually runs on.",
     highlights: [
       "Founding Software Engineer at Amplify (May 2026 - Present)",
@@ -45,6 +45,7 @@ const PORTFOLIO_DATA = {
       company: "Kalinga Spa",
       role: "Co-founder, Lead Full Stack Developer",
       period: "June 2026 - Present",
+      link: "https://kalingaspa.com/",
       achievements: [
         "Shipped the Go/PostgreSQL platform now running the whole business: ₱731,000 revenue over 677 bookings and 1,378 service hours in 2 months, at a ₱370,000/month run rate",
         "Replaced spreadsheet payouts with automated commission splits, wallets, and payroll, reconciling ₱248,000 in therapist earnings against ₱483,000 profit across 1,335 ledger records with zero manual computation",

@@ -7,6 +7,7 @@ const experience = [
     company: "Kalinga Spa",
     period: "June 2026 - Present",
     role: "Co Founder, Lead Full Stack Developer",
+    link: "https://kalingaspa.com/",
     highlights: [
       "Shipped the Go/PostgreSQL platform now running the whole business: ₱731,000 revenue over 677 bookings and 1,378 service hours in 2 months, at a ₱370,000/month run rate.",
       "Replaced spreadsheet payouts with automated commission splits, wallets, and payroll, reconciling ₱248,000 in therapist earnings against ₱483,000 profit across 1,335 ledger records with zero manual computation."

@@ -25,7 +25,7 @@ export function About() {
                     </div>
                     <div className="space-y-1">
                         <p className="font-mono text-xs text-muted-foreground uppercase">Status</p>
-                        <p className="font-medium text-green-500 text-sm">Open for Volunteer Work</p>
+                        <p className="font-medium text-green-500 text-sm">Open to Speaking Opportunities</p>
                     </div>
                 </div>
             </div>
