@@ -1,13 +1,13 @@
 ## About This Portfolio
 
-I’m Sean Paul Monton, a BS Computer Science student building clean, production-grade software. This site is my interactive portfolio: a 3D hero, animated sections, and an AI assistant (Sai) that answers questions about my experience, tech stack, and projects.
+I am Sean Paul Monton, and I build the systems that businesses actually run on, while I am still finishing my BS in Computer Science. This site is my interactive portfolio, namely a 3D hero, animated sections, and an AI assistant (Sai) that answers questions about my experience, tech stack, and projects.
 
 ### About Me
 
-- 2nd Year BS Computer Science @ Polytechnic University of the Philippines; SM Foundation Scholar
-- Shipped 8+ freelance projects and multiple hackathon wins/placements
-- Focused on AI + TypeScript + Python + AWS to ship SOTA-influenced solutions
-- Based in Pasay City, Philippines; open for internship and freelance opportunities
+- Founding Software Engineer @ Amplify; Co-Founder & Lead Full Stack Developer @ Kalinga Spa and Laundry King MNL
+- BS Computer Science @ Polytechnic University of the Philippines; SM Foundation Scholar
+- ₱1.1M+ in revenue shipped across two companies, using Go and PostgreSQL, TypeScript, Python, and AWS
+- Based in Pasay City, Philippines; open for volunteer work
 
 ## Highlights
 
@@ -46,12 +46,12 @@ The AI chat requires a valid DeepSeek API key.
 
 ## Project Map
 
-- [app/page.tsx](app/page.tsx) – page composition
-- [app/layout.tsx](app/layout.tsx) – global shell and providers
-- [components/ai-fab.tsx](components/ai-fab.tsx) – Sai chat assistant
-- [components](components) – hero, sections, navbar, theming, and shared UI
-- [lib](lib) – utilities and AI client
-- [public](public) – static assets (favicons, resume, logos)
+- [app/page.tsx](app/page.tsx) - page composition
+- [app/layout.tsx](app/layout.tsx) - global shell and providers
+- [components/ai-fab.tsx](components/ai-fab.tsx) - Sai chat assistant
+- [components](components) - hero, sections, navbar, theming, and shared UI
+- [lib](lib) - utilities and AI client
+- [public](public) - static assets (favicons, resume, logos)
 
 ## Contact
 

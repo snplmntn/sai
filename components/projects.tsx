@@ -25,7 +25,7 @@ const projects: Project[] = [
     date: "December 2025"
   },
   {
-    title: "Alnay & MedicAI",
+    title: "AInay & MedicAI",
     role: "Team Lead, Full Stack Developer",
     desc: "Architected platforms for FDA registries and Kaggle datasets. Targeted addresses 76% medication non-adherence rate. 3rd Place Overall & Clinical Assistant Bounty.",
     stats: "Dual-Awarded",

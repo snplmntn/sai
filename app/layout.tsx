@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Sean Paul Monton | Portfolio",
-  description: "Aspiring CS Student & Full Stack Engineer specializing in AI-integrated solutions.",
+  description: "Founding Software Engineer at Amplify, co-founder of Kalinga Spa and Laundry King MNL. Full stack engineer building the platforms businesses run on.",
 };
 
 export default function RootLayout({

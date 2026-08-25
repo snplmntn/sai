@@ -34,7 +34,7 @@ export function Education() {
           <div className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-muted-foreground/30 ring-4 ring-background" />
           
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
-            <h3 className="text-xl font-semibold text-muted-foreground">Polytechnic University of the Philippines – SHS</h3>
+            <h3 className="text-xl font-semibold text-muted-foreground">Polytechnic University of the Philippines - SHS</h3>
             <span className="text-sm font-mono text-muted-foreground">2022 - 2024</span>
           </div>
           

@@ -13,10 +13,10 @@ export function About() {
                     <span className="text-primary/60">Purpose & Impact.</span>
                 </h2>
                 <p className="text-muted-foreground leading-relaxed text-lg">
-                    I am a <span className="text-foreground font-medium">2nd Year Bachelor of Science in Computer Science</span> student at the <span className="text-foreground font-medium">Polytechnic University of the Philippines</span> and an <span className="text-foreground font-medium">SM Foundation Scholar</span>. I blend academic rigor with real-world execution, bridging the gap between complex AI capabilities and intuitive user experiences.
+                    I co-founded <span className="text-foreground font-medium">Kalinga Spa</span> and <span className="text-foreground font-medium">Laundry King MNL</span>, and right now I am the <span className="text-foreground font-medium">Founding Software Engineer</span> at <span className="text-foreground font-medium">Amplify</span>, while I am still finishing my <span className="text-foreground font-medium">Bachelor of Science in Computer Science</span> at the <span className="text-foreground font-medium">Polytechnic University of the Philippines</span> as an <span className="text-foreground font-medium">SM Foundation Scholar</span>. It is a lot to hold at the same time, and I think that is really where I learn the most.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                    With a freelance background of <span className="text-foreground font-medium">shipping 8+ projects</span> and multiple <span className="text-foreground font-medium">hackathon wins</span> and participations, I am currently focused on "SOTA" implementation, leveraging <span className="text-foreground font-medium">AI, TypeScript, Python, and AWS</span> to solve complex real-world problems.
+                    What I build is the system the business actually runs on, and not just the interface on top of it. For example, in Kalinga Spa I shipped a <span className="text-foreground font-medium">Go and PostgreSQL</span> platform that now carries <span className="text-foreground font-medium">₱731,000 in revenue</span> and replaced the spreadsheet payouts with automated commission splits, wallets, and payroll. On the other hand, my internship in Nummeals was more on operations tooling, namely rider routing and a delivery app that was proven across <span className="text-foreground font-medium">38,773 stops</span>.
                 </p>
                 <div className="flex flex-wrap gap-8 pt-4">
                     <div className="space-y-1">
@@ -25,7 +25,7 @@ export function About() {
                     </div>
                     <div className="space-y-1">
                         <p className="font-mono text-xs text-muted-foreground uppercase">Status</p>
-                        <p className="font-medium text-green-500 text-sm">Open for Internship & Freelance</p>
+                        <p className="font-medium text-green-500 text-sm">Open for Volunteer Work</p>
                     </div>
                 </div>
             </div>

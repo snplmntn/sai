@@ -17,8 +17,8 @@ import {
   Linkedin,
   Smartphone,
   TrendingUp,
-  Users,
-  Trophy,
+  ShoppingBag,
+  Clock,
   Rocket,
 } from "lucide-react";
 import Link from "next/link";
@@ -30,9 +30,9 @@ import { Education } from "@/components/education";
 import { Contact } from "@/components/contact";
 
 const HERO_STATS = [
-  { label: "Revenue Generated", value: "₱400k+", icon: TrendingUp },
-  { label: "Active Users Served", value: "600+", icon: Users },
-  { label: "Hackathon Wins", value: "2", icon: Trophy },
+  { label: "Revenue Shipped", value: "₱1.1M+", icon: TrendingUp },
+  { label: "Orders & Bookings Handled", value: "12,000+", icon: ShoppingBag },
+  { label: "Ops Hours Saved / Month", value: "1,800+", icon: Clock },
 ];
 
 export default function Home() {
@@ -55,8 +55,8 @@ export default function Home() {
           >
             <Rocket className="h-3 w-3 sm:h-4 sm:w-4 shrink-0" />
             <span className="truncate">
-              <span className="hidden sm:inline">CS Student • </span>Aspiring AI
-              & Full Stack Engineer
+              Founding Engineer<span className="hidden sm:inline"> •
+                Co-Founder ×2</span>
             </span>
           </Badge>
 
@@ -64,21 +64,18 @@ export default function Home() {
             Sean Paul Monton
           </h1>
           <p className="text-muted-foreground text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
-            Building{" "}
+            I co-founded{" "}
+            <span className="text-foreground font-medium">Kalinga Spa</span> and{" "}
+            <span className="text-foreground font-medium">Laundry King MNL</span>
+            , and I am the{" "}
             <span className="text-foreground font-medium">
-              high-availability platforms
+              Founding Software Engineer
             </span>{" "}
-            and{" "}
-            <span className="text-foreground font-medium">
-              AI-native solutions
-            </span>
-            . CS Student at PUP Manila, currently open for{" "}
-            <span className="text-foreground font-medium">internships</span>,{" "}
-            <span className="text-foreground font-medium">freelance</span>, and{" "}
-            <span className="text-foreground font-medium">
-              part-time opportunities
-            </span>
-            .
+            at Amplify. I build the systems these businesses actually run on,
+            namely their bookings, payouts, and operations tooling, and I am
+            always open for{" "}
+            <span className="text-foreground font-medium">volunteer work</span>{" "}
+            that needs an engineer.
           </p>
 
           <motion.div
