@@ -68,7 +68,7 @@ const PORTFOLIO_DATA = {
       link: "https://www.nummeals.com/",
       achievements: [
         "Automated rider routing across 33 riders and 27 delivery areas: 25 assignment rules replacing a manual spreadsheet, 603 reassignments processed, preview and one-click rollback on every run",
-        "Shipped the rider delivery app across 38,773 stops and 2,904 rider-days: offline stop list, proof-of-delivery photos, and idempotent replay so no stop double-posts on reconnect",
+        "Shipped the rider delivery app across 38,773 delivery stops and 2,904 rider-days: offline stop list, proof-of-delivery photos, and idempotent replay so no stop double-posts on reconnect",
         "Secured the operations console for 14 staff over 11,414 orders and 3,486 customers: role-based permissions enforced at the database row level, across 42 API endpoints",
       ],
     },

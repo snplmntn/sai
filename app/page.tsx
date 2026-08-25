@@ -63,7 +63,7 @@ export default function Home() {
           <h1 className="text-4xl font-bold tracking-tighter sm:text-7xl mb-6 bg-clip-text text-transparent bg-gradient-to-b from-foreground to-foreground/50 leading-tight">
             Sean Paul Monton
           </h1>
-          <p className="text-muted-foreground text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
+          <p className="text-muted-foreground text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed text-pretty sm:text-balance">
             I co-founded{" "}
             <span className="text-foreground font-medium">Kalinga Spa</span> and{" "}
             <span className="text-foreground font-medium">Laundry King MNL</span>
@@ -72,12 +72,12 @@ export default function Home() {
               Founding Software Engineer
             </span>{" "}
             at Amplify. I build the systems these businesses actually run on,
-            namely their bookings, payouts, and operations tooling, and I am
-            always open to{" "}
+            namely their bookings, payouts, and operations tooling. I am also
+            open to{" "}
             <span className="text-foreground font-medium">
               speaking opportunities
-            </span>{" "}
-            where I can share how these were built.
+            </span>
+            .
           </p>
 
           <motion.div

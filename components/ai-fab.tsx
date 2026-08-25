@@ -42,7 +42,7 @@ const QUICK_ACTIONS: QuickAction[] = [
     label: "Experience",
     question: "Tell me about your experience.",
     answer:
-      "Sean is the Founding Software Engineer at Amplify, where he shipped the self-serve product in 6 weeks. He co-founded Kalinga Spa (₱731k revenue on a Go/PostgreSQL platform) and Laundry King MNL (₱400k+ revenue), and interned at Nummeals building rider routing and delivery tooling across 38,773 stops.",
+      "Sean is the Founding Software Engineer at Amplify, where he shipped the self-serve product in 6 weeks. He co-founded Kalinga Spa (₱731k revenue on a Go/PostgreSQL platform) and Laundry King MNL (₱400k+ revenue), and interned at Nummeals building rider routing and delivery tooling across 38,773 delivery stops.",
     actionLink: "#experience",
     actionLabel: "See Timeline",
   },
