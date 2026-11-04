@@ -58,8 +58,8 @@ const QUICK_ACTIONS: QuickAction[] = [
     label: "Contact",
     question: "How can I contact you?",
     answer:
-      "You can reach Sean at 2136seanpaul@gmail.com. He's also reachable via LinkedIn and GitHub (@snplmntn).",
-    actionLink: "mailto:2136seanpaul@gmail.com",
+      "You can reach Sean at snplmntn@gmail.com. He's also reachable via LinkedIn and GitHub (@snplmntn).",
+    actionLink: "mailto:snplmntn@gmail.com",
     actionLabel: "Send Email",
   },
   {

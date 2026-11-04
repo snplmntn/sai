@@ -37,7 +37,7 @@ export function Contact() {
             >
               <Card 
                 className="h-full p-8 border-border/50 bg-background/50 backdrop-blur-xl hover:border-primary/50 transition-colors flex flex-col justify-between group cursor-pointer"
-                onClick={() => window.location.href = 'mailto:2136seanpaul@gmail.com'}
+                onClick={() => window.location.href = 'mailto:snplmntn@gmail.com'}
               >
                 <div>
                     <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
@@ -49,7 +49,7 @@ export function Contact() {
                     </p>
                 </div>
                 <Button className="w-full group/btn pointer-events-none" size="lg">
-                    2136seanpaul@gmail.com
+                    snplmntn@gmail.com
                     <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
                 </Button>
               </Card>

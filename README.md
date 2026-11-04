@@ -55,6 +55,6 @@ The AI chat requires a valid DeepSeek API key.
 
 ## Contact
 
-- Email: 2136seanpaul@gmail.com
+- Email: snplmntn@gmail.com
 - LinkedIn: https://linkedin.com/in/snplmntn
 - GitHub: https://github.com/snplmntn

@@ -215,7 +215,7 @@ const PORTFOLIO_DATA = {
     },
   ],
   contacts: {
-    email: "2136seanpaul@gmail.com",
+    email: "snplmntn@gmail.com",
     github: "https://github.com/snplmntn",
     linkedin: "https://www.linkedin.com/in/snplmntn",
     calendly: "https://calendly.com/2136seanpaul/30min",
