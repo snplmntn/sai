@@ -42,7 +42,7 @@ const QUICK_ACTIONS: QuickAction[] = [
     label: "Experience",
     question: "Tell me about your experience.",
     answer:
-      "Sean is the Founding Software Engineer at Amplify, where he shipped the self-serve product in 6 weeks. He co-founded Kalinga Spa (₱731k revenue on a Go/PostgreSQL platform) and Laundry King MNL (₱400k+ revenue), and interned at Nummeals building rider routing and delivery tooling across 38,773 delivery stops.",
+      "Sean is the Founding Software Engineer at Amplify, where he is the primary engineer and built Mia, its in-app AI agent, and an MCP server so outside agents can run the product. He co-founded Kalinga Spa ($35.8k revenue on a Go/PostgreSQL platform) and Laundry King MNL ($6.7k+ revenue), and interned at Nummeals building rider routing and delivery tooling across 38,773 delivery stops.",
     actionLink: "#experience",
     actionLabel: "See Timeline",
   },
@@ -50,7 +50,7 @@ const QUICK_ACTIONS: QuickAction[] = [
     label: "Projects",
     question: "What are your best projects?",
     answer:
-      "Key projects include AInay & MedicAI (hackathon winners for polypharmacy risks and clinical documentation), AWS Cloud Club PUP LMS, and Budget Wingman.",
+      "Key projects include Uxie (1st Place, Codex × UX+AI Hackathon: AI agents that test a website's usability in a real browser), AInay & MedicAI (hackathon winners for polypharmacy risks and clinical documentation), and Budget Wingman.",
     actionLink: "#projects",
     actionLabel: "View Projects",
   },
@@ -74,7 +74,7 @@ const QUICK_ACTIONS: QuickAction[] = [
     label: "Awards",
     question: "What awards has Sean received?",
     answer:
-      "Sean won 3rd Place Overall for AInay and the Clinical Assistant Bounty for MedicAI at the Ship or Be Shipped Philippines hackathon, competing against 80+ developers.",
+      "Sean won 1st Place at the Codex × UX+AI Hackathon for Uxie, and 3rd Place Overall for AInay plus the Clinical Assistant Bounty for MedicAI at Ship or Be Shipped Philippines, competing against 80+ developers.",
     actionLink: "#recognition",
     actionLabel: "View Awards",
   },

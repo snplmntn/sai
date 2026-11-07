@@ -30,8 +30,8 @@ import { Education } from "@/components/education";
 import { Contact } from "@/components/contact";
 
 const HERO_STATS = [
-  { label: "Revenue Shipped", value: "₱1.1M+", icon: TrendingUp },
-  { label: "Orders & Bookings Handled", value: "12,000+", icon: ShoppingBag },
+  { label: "Revenue Shipped", value: "$42K+", icon: TrendingUp },
+  { label: "Orders & Bookings Handled", value: "13,000+", icon: ShoppingBag },
   { label: "Ops Hours Saved / Month", value: "1,800+", icon: Clock },
 ];
 

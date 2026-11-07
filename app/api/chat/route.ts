@@ -14,7 +14,7 @@ const PORTFOLIO_DATA = {
     highlights: [
       "Founding Software Engineer at Amplify (May 2026 - Present)",
       "Co-Founder & Lead Full Stack Developer at Kalinga Spa (June 2026 - Present) and Laundry King MNL (July 2025 - Present)",
-      "₱1.1M+ in revenue shipped across Kalinga Spa (₱731,000) and Laundry King MNL (₱400,000+)",
+      "$42K+ in revenue shipped across Kalinga Spa ($35,800) and Laundry King MNL ($6,700+)",
       "BSCS at Polytechnic University of the Philippines (PUP Manila), SM Foundation Scholar",
       "Specializes in high-availability platforms, operations tooling, and AI-native products",
     ],
@@ -47,8 +47,8 @@ const PORTFOLIO_DATA = {
       period: "June 2026 - Present",
       link: "https://kalingaspa.com/",
       achievements: [
-        "Shipped the Go/PostgreSQL platform now running the whole business: ₱731,000 revenue over 677 bookings and 1,378 service hours in 2 months, at a ₱370,000/month run rate",
-        "Replaced spreadsheet payouts with automated commission splits, wallets, and payroll, reconciling ₱248,000 in therapist earnings against ₱483,000 profit across 1,335 ledger records with zero manual computation",
+        "Shipped the Go/PostgreSQL platform now running the whole business: $35,800 revenue over 2,212 bookings and 4,385 service hours since launch, at a $10,000/month run rate",
+        "Replaced spreadsheet payouts with automated commission splits, wallets, and payroll, reconciling $13,500 in therapist earnings against $22,400 profit across 4,470 ledger records with zero manual computation",
       ],
     },
     {
@@ -57,8 +57,10 @@ const PORTFOLIO_DATA = {
       period: "May 2026 - Present",
       link: "https://withamplify.ai/",
       achievements: [
-        "Sole engineer on the self-serve product that replaced the agency service, built and shipped in 6 weeks, removing the per-client operator cost that capped the business at 5 brands",
-        "Automated the workflow 7 operators ran by hand across 200 personas, converting a headcount-bound service into a platform that scales without hiring",
+        "Primary engineer on the self-serve product that replaced the agency service: shipped the first version in 6 weeks and wrote 76% of 4,800 commits, automating the workflow 7 operators ran by hand so the business scales without hiring",
+        "Built Mia, the in-app AI agent that runs the product from chat: turns an idea, photo, or link into a finished post, remixes trends, replies to comments, and changes brand, calendar, and Autopilot settings in English, Hindi, and Hinglish",
+        "Shipped a remote MCP server exposing 72 tools for content, scheduling, creators, credits, and billing, with OAuth, per-user permissions, credit checks, and audit logs, so external AI agents can operate Amplify directly",
+        "Built Autopilot, which researches trends and generates and publishes posts without the user, gated by LLM-judge reviewers that check copy, plans, and likeness swaps before anything ships",
       ],
     },
     {
@@ -91,7 +93,7 @@ const PORTFOLIO_DATA = {
       achievements: [
         "Solely architected, engineered and deployed a highly available RESTful API using MERN with TypeScript",
         "Integrating AWS S3 for secure cloud storage with 100% backend test coverage",
-        "Enabled ₱400,000+ in revenue by implementing an efficient order management system for 80+ weekly active users (300+ total customers)",
+        "Enabled $6,700+ in revenue by implementing an efficient order management system for 80+ weekly active users (300+ total customers)",
       ],
     },
     {
@@ -125,6 +127,12 @@ const PORTFOLIO_DATA = {
     },
   ],
   awards: [
+    {
+      name: "1st Place - Codex × UX+AI Hackathon",
+      project: "Uxie",
+      stats: "6-Hour Build with OpenAI Codex",
+      date: "October 2026",
+    },
     {
       name: "1st Runner Up - PMAX-EMAX Innovation Expo",
       project: "TickTrack",
@@ -182,6 +190,15 @@ const PORTFOLIO_DATA = {
   },
   projects: [
     {
+      title: "Uxie",
+      role: "Full Stack Developer",
+      desc: "1st Place at the Codex × UX+AI Hackathon. An AI usability preflight: up to five simulated visitors, each an AI agent in a real browser with real limits (200% zoom, touch-only phone, keyboard and screen reader only), try one goal and return a score, top fixes, and a fix prompt per issue. Built in 6 hours with OpenAI Codex.",
+      stats: "1st Place",
+      stack: ["AI Agents", "Playwright", "Next.js", "Hono"],
+      date: "October 2026",
+      link: "https://uxie.netlify.app/",
+    },
+    {
       title: "TickTrack",
       role: "Full Stack Developer (Team CoolPals)",
       desc: "Built a working AI-powered operational communication prototype in under 2 hours, competing against industry vets. 1st Runner Up at PMAX-EMAX Innovation Expo.",
@@ -192,10 +209,11 @@ const PORTFOLIO_DATA = {
     {
       title: "AInay & MedicAI",
       role: "Team Lead, Full Stack Developer",
-      desc: "Architected platforms for FDA registries and Kaggle datasets. Targeted addresses 76% medication non-adherence rate. 3rd Place Overall & Clinical Assistant Bounty.",
+      desc: "3rd Place Overall & Clinical Assistant Bounty. AInay is an AI medication companion for seniors that checks medicines against the Philippine FDA registry and flags drug-drug and drug-food interactions; MedicAI is an AI clinical documentation assistant.",
       stats: "Dual-Awarded",
       stack: ["MERN", "TypeScript", "Big Data"],
       date: "December 2025",
+      link: "https://ainay.netlify.app/",
     },
     {
       title: "AWS Cloud Club PUP LMS",

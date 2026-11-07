@@ -9,8 +9,8 @@ const experience = [
     role: "Co Founder, Lead Full Stack Developer",
     link: "https://kalingaspa.com/",
     highlights: [
-      "Shipped the Go/PostgreSQL platform now running the whole business: ₱731,000 revenue over 677 bookings and 1,378 service hours in 2 months, at a ₱370,000/month run rate.",
-      "Replaced spreadsheet payouts with automated commission splits, wallets, and payroll, reconciling ₱248,000 in therapist earnings against ₱483,000 profit across 1,335 ledger records with zero manual computation."
+      "Shipped the Go/PostgreSQL platform now running the whole business: $35,800 revenue over 2,212 bookings and 4,385 service hours since launch, at a $10,000/month run rate.",
+      "Replaced spreadsheet payouts with automated commission splits, wallets, and payroll, reconciling $13,500 in therapist earnings against $22,400 profit across 4,470 ledger records with zero manual computation."
     ]
   },
   {
@@ -19,8 +19,10 @@ const experience = [
     role: "Founding Software Engineer",
     link: "https://withamplify.ai/",
     highlights: [
-      "Sole engineer on the self-serve product that replaced the agency service, built and shipped in 6 weeks, removing the per-client operator cost that capped the business at 5 brands.",
-      "Automated the workflow 7 operators ran by hand across 200 personas, converting a headcount-bound service into a platform that scales without hiring."
+      "Primary engineer on the self-serve product that replaced the agency service: shipped the first version in 6 weeks and wrote 76% of 4,800 commits, automating the workflow 7 operators ran by hand so the business scales without hiring.",
+      "Built Mia, the in-app AI agent that runs the product from chat: turns an idea, photo, or link into a finished post, remixes trends, replies to comments, and changes brand, calendar, and Autopilot settings in English, Hindi, and Hinglish.",
+      "Shipped a remote MCP server exposing 72 tools for content, scheduling, creators, credits, and billing, with OAuth, per-user permissions, credit checks, and audit logs, so external AI agents can operate Amplify directly.",
+      "Built Autopilot, which researches trends and generates and publishes posts without the user, gated by LLM-judge reviewers that check copy, plans, and likeness swaps before anything ships."
     ]
   },
   {
@@ -52,7 +54,7 @@ const experience = [
     link: "https://laundrykingmnl.com/",
     highlights: [
       "Solely architected, engineered and deployed a highly available RESTful API using MERN with TypeScript, integrating AWS S3 for secure cloud storage with 100% backend test coverage.",
-      "Enabled ₱400,000+ in revenue by implementing an efficient order management system for the 80+ weekly active user base, supporting a total of 300+ customers."
+      "Enabled $6,700+ in revenue by implementing an efficient order management system for the 80+ weekly active user base, supporting a total of 300+ customers."
     ]
   },
   {
@@ -75,7 +77,7 @@ export function Experience() {
       </div>
 
       <div className="relative border-l border-border/50 ml-4 space-y-12">
-        {experience.map((job: any, index) => (
+        {experience.map((job: { company: string; period: string; role: string; link?: string; highlights: string[] }, index) => (
           <div key={index} className="relative pl-8">
             <div className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-primary ring-4 ring-background" />
             

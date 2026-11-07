@@ -17,6 +17,15 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Uxie",
+    role: "Full Stack Developer",
+    desc: "1st Place at the Codex × UX+AI Hackathon. An AI usability preflight: up to five simulated visitors, each an AI agent in a real browser with real limits (200% zoom, touch-only phone, keyboard and screen reader only), try one goal and return a score, top fixes, and a fix prompt per issue. Built in 6 hours with OpenAI Codex.",
+    stats: "1st Place",
+    stack: ["AI Agents", "Playwright", "Next.js", "Hono"],
+    date: "October 2026",
+    link: "https://uxie.netlify.app/"
+  },
+  {
     title: "TickTrack",
     role: "Full Stack Developer (Team CoolPals)",
     desc: "1st Runner Up at PMAX-EMAX Innovation Expo. Built a working AI-powered operational communication prototype in under 2 hours, competing against industry vets.",
@@ -27,10 +36,11 @@ const projects: Project[] = [
   {
     title: "AInay & MedicAI",
     role: "Team Lead, Full Stack Developer",
-    desc: "Architected platforms for FDA registries and Kaggle datasets. Targeted addresses 76% medication non-adherence rate. 3rd Place Overall & Clinical Assistant Bounty.",
+    desc: "3rd Place Overall & Clinical Assistant Bounty. AInay is an AI medication companion for seniors that checks medicines against the Philippine FDA registry and flags drug-drug and drug-food interactions; MedicAI is an AI clinical documentation assistant.",
     stats: "Dual-Awarded",
     stack: ["MERN", "TypeScript", "Big Data"],
-    date: "December 2025"
+    date: "December 2025",
+    link: "https://ainay.netlify.app/"
   },
   {
     title: "AWS Cloud Club PUP LMS",
